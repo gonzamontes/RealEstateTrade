@@ -1,0 +1,62 @@
+.dark-mode{
+    background-color: darken($color: $grisOscuro, $amount: 10);
+
+    p, a, blockquote{
+        color: $blanco
+    }
+
+    h1, h2, h3, h4{
+        color: darken($color: $blanco, $amount: 20) !important
+    }
+
+    .advertisement{
+        background-color: darken($color: $blanco, $amount: 75);
+        border: none;
+        margin-bottom: 2rem;
+        &:last-of-type{
+            margin-right: 0;
+        }
+
+        
+    }
+
+    .propertySection{
+        .iconC{
+            filter: invert(100%);
+        }
+    
+        .price{
+            color: $verde;
+        }
+
+        background-color: darken($color: $blanco, $amount: 75);
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 2rem;
+    }
+
+    
+
+    .container-advertisements{
+        background-color: darken($color: $grisOscuro, $amount: 10);
+    }
+
+    .form{
+        label,
+        legend{
+            color: $gris;
+        }
+
+        p {
+            color: darken($gris, 20);
+        }
+
+        input:not([type="submit"], [type="radio"]),
+    textarea,
+    select {
+        background-color: $grisOscuro;
+        color: $blanco;
+        border: darken($color: $blanco, $amount: 70);
+
+    }
+    }
+}

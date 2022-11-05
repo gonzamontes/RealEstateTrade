@@ -1,0 +1,12 @@
+.btn-yellow{
+    @include btn($amarillo, inline-block)
+}
+
+.btn-yellow-block{
+    @include btn($amarillo, block)
+}
+
+.btn-green{
+    @include btn($verde, block)
+}
+

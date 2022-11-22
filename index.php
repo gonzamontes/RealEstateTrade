@@ -1,40 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-    
-    <header class="header start">
-        <div class="container container-header">
-
-            <div class="bar">
-
-                <a href="/">
-                    <img src="build/img/logo.svg" alt="Logotipo de bienes raices">
-                </a>
-
-                <div class="movile-menu">
-                    <img class="bmenu" src="build/img/barras.svg" alt="responsive menu">
-                    <img class="btnDarkmode" src="build/img/dark-mode.svg" >
-                </div>
-
-                <nav class="nav">
-                    <a href="us.html">nosotros</a>
-                    <a href="advertisements.html">anuncios</a>
-                    <a href="blog.html">blog</a>
-                    <a href="contact.html">contacto</a>
-                </nav>
-
-            </div>
-
-            <h1>Venta de casas y departamentos exclusivos de lujo</h1>
-        </div>
-    </header>
+<?php 
+require 'includes/funciones.php';
+incluirTemplate('header', $start = true);
+?>
 
     <!------------------------------- seccion de info --------------------->
 
@@ -99,7 +66,7 @@
                         </li>
                     </ul>
 
-                    <a href="advertisements.html" class="btn-yellow-block">
+                    <a href="advertisements.php" class="btn-yellow-block">
                         ver propiedad
                     </a>
 
@@ -136,7 +103,7 @@
                         </li>
                     </ul>
 
-                    <a href="advertisements.html" class="btn-yellow-block">
+                    <a href="advertisements.php" class="btn-yellow-block">
                         ver propiedad
                     </a>
 
@@ -173,7 +140,7 @@
                         </li>
                     </ul>
 
-                    <a href="advertisements.html" class="btn-yellow-block">
+                    <a href="advertisements.php" class="btn-yellow-block">
                         ver propiedad
                     </a> 
 
@@ -183,7 +150,7 @@
         </div>
 
         <dev class="align-right">
-            <a href="advertisements.html" class="btn-green">Ver todas</a>
+            <a href="advertisements.php" class="btn-green">Ver todas</a>
         </dev>
 
     </section>
@@ -193,7 +160,7 @@
     <section class="img-contact">
         <h2>Encuentra la casa sde tus suelos</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae incidunt corporis veritatis ipsam at ipsa aspernatur iste laboriosam! Dolorem debitis et ab excepturi, corrupti minus harum doloribus pariatur culpa!</p>
-        <a href="contacto.html" class="btn-yellow">Contactanos</a>
+        <a href="contacto.php" class="btn-yellow">Contactanos</a>
     </section>
 
     <!--------------- seccion de blog  ----------------->
@@ -212,7 +179,7 @@
                 </div>
 
                 <div class="text-entry">
-                    <a href="entry.html">
+                    <a href="entry.php">
                         <h4>terraza y techo en tu casa</h4>
                         <p class="meta-info">Escrito el <span>20/10/2022</span> por <span>Admin</span></p>
                         <p>
@@ -232,7 +199,7 @@
                 </div>
 
                 <div class="text-entry">
-                    <a href="entry.html">
+                    <a href="entry.php">
                         <h4>guia decoracion de tu hogar</h4>
                         <p class="meta-info">Escrito el <span>20/10/2022</span> por <span>Admin</span></p>
                         <p>
@@ -257,22 +224,7 @@
         </section>
     </div>
 
-    <!------------------------------- footer ----------------------------->
-
-    <footer class="seccion footer">
-        <div class="container-footer container">
-            <nav class="nav-footer">
-                <a href="us.html">nosotros</a>
-                <a href="advertisements.html">anuncios</a>
-                <a href="blog.html">blog</a>
-                <a href="contact.html">contacto</a>
-            </nav>
-        </div>
-        <p class="copyright">Todos los derechos reservados 2022 &copy;</p>
-    </footer> 
-
-    <!----- scripts  ----->
-
-    <script src="build/js/bundle.min.js"></script>
-</body>
-</html>
+    <!-- ----------------------------- footer --------------------------- -->
+    <?php 
+        incluirTemplate('footer');
+    ?>  

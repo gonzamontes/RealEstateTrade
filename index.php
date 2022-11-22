@@ -6,24 +6,24 @@ incluirTemplate('header', $start = true);
     <!------------------------------- seccion de info --------------------->
 
     <main class="container">
-        <h1>Mas sobre nosotros</h1>
+        <h1>More about us</h1>
 
         <div class="icons-us">
             <div class="icon">
                 <img src="build/img/icono1.svg" alt="Security icon" loading="lazy">
-                <h3>seguridad</h3>
+                <h3>Security</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sunt mollitia fugit eveniet excepturi, unde, quasi quam quibusdam amet ipsum sed vero quisquam porro quis nisi distinctio maxime culpa veritatis.</p>
             </div>
         
             <div class="icon">
                 <img src="build/img/icono1.svg" alt="Price icon" loading="lazy">
-                <h3>precio</h3>
+                <h3>Price</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sunt mollitia fugit eveniet excepturi, unde, quasi quam quibusdam amet ipsum sed vero quisquam porro quis nisi distinctio maxime culpa veritatis.</p>
             </div>
         
             <div class="icon">
                 <img src="build/img/icono1.svg" alt="Time icon" loading="lazy">
-                <h3>a tiempo</h3>
+                <h3>On time!</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sunt mollitia fugit eveniet excepturi, unde, quasi quam quibusdam amet ipsum sed vero quisquam porro quis nisi distinctio maxime culpa veritatis.</p>
             </div>
         </div>
@@ -32,7 +32,7 @@ incluirTemplate('header', $start = true);
     <!------------------------------- seccion de casas --------------------->
 
     <section class="section s1 container">
-        <h2>Casa y depas en venmta</h2>
+        <h2>Houses & apartments for sale</h2>
 
         <div class="container-advertisements">
             
@@ -45,11 +45,11 @@ incluirTemplate('header', $start = true);
 
                 <div class="container-advertisement">
 
-                    <h3>casa de lujo de lago</h3>
+                    <h3>Luxury house on the lake</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">400000</p>
+                    <p class="price">$400000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -67,7 +67,7 @@ incluirTemplate('header', $start = true);
                     </ul>
 
                     <a href="advertisements.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a>
 
                 </div>
@@ -82,11 +82,11 @@ incluirTemplate('header', $start = true);
 
                 <div class="container-advertisement">
 
-                    <h3>casa de lujo de montaña</h3>
+                    <h3>Minimalist house</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">345000</p>
+                    <p class="price">$345000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -104,7 +104,7 @@ incluirTemplate('header', $start = true);
                     </ul>
 
                     <a href="advertisements.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a>
 
                 </div>
@@ -119,11 +119,11 @@ incluirTemplate('header', $start = true);
 
                 <div class="container-advertisement">
 
-                    <h3>casa de lujo Barrio privado</h3>
+                    <h3>Rustic mansion with pool</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">555000</p>
+                    <p class="price">$555000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -141,7 +141,7 @@ incluirTemplate('header', $start = true);
                     </ul>
 
                     <a href="advertisements.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a> 
 
                 </div>
@@ -150,7 +150,7 @@ incluirTemplate('header', $start = true);
         </div>
 
         <dev class="align-right">
-            <a href="advertisements.php" class="btn-green">Ver todas</a>
+            <a href="advertisements.php" class="btn-green">View all</a>
         </dev>
 
     </section>
@@ -158,16 +158,16 @@ incluirTemplate('header', $start = true);
     <!--------------- seccion de contacto  ----------------->
 
     <section class="img-contact">
-        <h2>Encuentra la casa sde tus suelos</h2>
+        <h2>Find your dreams house</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae incidunt corporis veritatis ipsam at ipsa aspernatur iste laboriosam! Dolorem debitis et ab excepturi, corrupti minus harum doloribus pariatur culpa!</p>
-        <a href="contacto.php" class="btn-yellow">Contactanos</a>
+        <a href="contacto.php" class="btn-yellow">Contact us</a>
     </section>
 
     <!--------------- seccion de blog  ----------------->
 
     <div class="container section down-section">
         <section class="blog">
-            <h3>Nuestro blog</h3>
+            <h3>Our blog</h3>
 
             <article class="blog-entry">
                 <div class="image">
@@ -180,10 +180,10 @@ incluirTemplate('header', $start = true);
 
                 <div class="text-entry">
                     <a href="entry.php">
-                        <h4>terraza y techo en tu casa</h4>
-                        <p class="meta-info">Escrito el <span>20/10/2022</span> por <span>Admin</span></p>
+                        <h4>Terrace and roof in your house</h4>
+                        <p class="meta-info">Written on <span>20/10/2022</span> by <span>Admin</span></p>
                         <p>
-                            Consejos para construir terraza en techo con los mejores materiales
+                        Tips for building a terrace with the best materials
                         </p>
                     </a>
                 </div>
@@ -200,10 +200,10 @@ incluirTemplate('header', $start = true);
 
                 <div class="text-entry">
                     <a href="entry.php">
-                        <h4>guia decoracion de tu hogar</h4>
-                        <p class="meta-info">Escrito el <span>20/10/2022</span> por <span>Admin</span></p>
+                        <h4>Home decoration guide</h4>
+                        <p class="meta-info">Written on <span>22/10/2022</span> by <span>Admin</span></p>
                         <p>
-                            Maximiza el espacio de tu hogar con esta guia aprende a combinar muebles y colores para darle vida a tu espacio
+                            Make the most of the space in your home with this guide, learn to combine furniture and colors to bring life to your home.
                         </p>
                     </a>
                 </div>
@@ -213,13 +213,13 @@ incluirTemplate('header', $start = true);
         <!------------------------------- testimonios ----------------------------->
 
         <section class="testimonials">
-            <h3>Testimoniso</h3>
+            <h3>Testimonials</h3>
 
             <div class="testimonial">
                 <blockquote>
-                    el personal se comporto de una excelente dorma, muy buena atencion y la casa que me ofrecieron cumple con todas mis expectativas
+                    The staff behaved in an excellent manner, very good attention and the house that they offered me met all my expectations.
                 </blockquote>
-                <p>- Gonzalo Montes</p>
+                <p>- Ricky Fort</p>
             </div>
         </section>
     </div>

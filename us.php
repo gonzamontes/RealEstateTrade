@@ -4,7 +4,7 @@
 ?>
 
     <main class="container">
-        <h1>conoce sobre nosotros</h1>
+        <h1>Know more about us!</h1>
 
         <div class="container-us">
             <div class="image-us">
@@ -17,7 +17,7 @@
     
             <div class="us-text">
                 <blockquote>
-                    25 años de experiencia
+                    25 years of experience
                 </blockquote>
     
                 <p>
@@ -31,24 +31,24 @@
     </main>
 
     <section class="container">
-        <h1>Mas sobre nosotros</h1>
+        <h1>More Info</h1>
 
         <div class="icons-us">
             <div class="icon">
                 <img src="build/img/icono1.svg" alt="Security icon" loading="lazy">
-                <h3>seguridad</h3>
+                <h3>Security</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sunt mollitia fugit eveniet excepturi, unde, quasi quam quibusdam amet ipsum sed vero quisquam porro quis nisi distinctio maxime culpa veritatis.</p>
             </div>
         
             <div class="icon">
                 <img src="build/img/icono1.svg" alt="Price icon" loading="lazy">
-                <h3>precio</h3>
+                <h3>Price</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sunt mollitia fugit eveniet excepturi, unde, quasi quam quibusdam amet ipsum sed vero quisquam porro quis nisi distinctio maxime culpa veritatis.</p>
             </div>
         
             <div class="icon">
                 <img src="build/img/icono1.svg" alt="Time icon" loading="lazy">
-                <h3>a tiempo</h3>
+                <h3>On time</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sunt mollitia fugit eveniet excepturi, unde, quasi quam quibusdam amet ipsum sed vero quisquam porro quis nisi distinctio maxime culpa veritatis.</p>
             </div>
         </div>

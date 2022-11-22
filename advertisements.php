@@ -4,7 +4,7 @@
 ?>
 
     <main class="container">
-        <h2>Casa y depas en venmta</h2>
+        <h2>Houses and apartments for sale</h2>
 
         <div class="container-advertisements">
 
@@ -19,11 +19,11 @@
 
                 <div class="container-advertisement">
 
-                    <h3>casa de lujo de lago</h3>
+                    <h3>Luxury house on the lake</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">400000</p>
+                    <p class="price">$400000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -41,7 +41,7 @@
                     </ul>
 
                     <a href="advertisement.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a>
 
                 </div>
@@ -58,11 +58,11 @@
 
                 <div class="container-advertisement">
 
-                    <h3>Casa familiar media</h3>
+                    <h3>House in downtown</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">400000</p>
+                    <p class="price">$300000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -80,7 +80,7 @@
                     </ul>
 
                     <a href="advertisement.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a>
 
                 </div>
@@ -97,11 +97,11 @@
 
                 <div class="container-advertisement">
 
-                    <h3>Ladrillos</h3>
+                    <h3>Big house in forest</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">400000</p>
+                    <p class="price">$320000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -119,7 +119,7 @@
                     </ul>
 
                     <a href="advertisement.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a>
 
                 </div>
@@ -136,11 +136,11 @@
 
                 <div class="container-advertisement">
 
-                    <h3>casa de lujo de lago</h3>
+                    <h3>House in gated community</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">400000</p>
+                    <p class="price">$345000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -158,7 +158,7 @@
                     </ul>
 
                     <a href="advertisement.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a>
 
                 </div>
@@ -175,11 +175,11 @@
 
                 <div class="container-advertisement">
 
-                    <h3>casa de lujo de montaña</h3>
+                    <h3>Minimalist house</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">345000</p>
+                    <p class="price">$350000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -197,7 +197,7 @@
                     </ul>
 
                     <a href="advertisement.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a>
 
                 </div>
@@ -214,11 +214,11 @@
 
                 <div class="container-advertisement">
 
-                    <h3>casa de lujo Barrio privado</h3>
+                    <h3>Rustic mansion with pool</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
 
-                    <p class="price">555000</p>
+                    <p class="price">$470000</p>
 
                     <ul class="icons-caracteristics">
                         <li>
@@ -236,7 +236,7 @@
                     </ul>
 
                     <a href="advertisement.php" class="btn-yellow-block">
-                        ver propiedad
+                        View property
                     </a>
 
                 </div>

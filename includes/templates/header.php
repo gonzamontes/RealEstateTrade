@@ -24,10 +24,10 @@
                 </div>
 
                 <nav class="nav">
-                    <a href="us.php">nosotros</a>
-                    <a href="advertisements.php">anuncios</a>
-                    <a href="blog.php">blog</a>
-                    <a href="contact.php">contacto</a>
+                    <a href="us.php">About us</a>
+                    <a href="advertisements.php">Properties</a>
+                    <a href="blog.php">Blog</a>
+                    <a href="contact.php">Contact</a>
                 </nav>
 
             </div>

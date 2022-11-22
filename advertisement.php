@@ -4,7 +4,7 @@
 ?>
 
     <main class="container section propertySection centered-content">
-        <h1>Casa en venta frente al bosque</h1>
+        <h1>House</h1>
 
         <picture>
             <source srcset="build/img/destacada.webp" type="image/webp">

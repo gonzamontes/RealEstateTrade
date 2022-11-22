@@ -4,7 +4,7 @@
 ?>
 
     <main class="container centered-content">
-        <h1>nuestro blog</h1>
+        <h1>Our blog</h1>
 
         <!-- blog 1 -->
 
@@ -19,10 +19,10 @@
 
             <div class="text-entry">
                 <a href="post.php">
-                    <h4>terraza y techo en tu casa</h4>
-                    <p>Escrito el <span>20/10/2022</span> por <span>Admin</span></p>
+                    <h4>Terrace and roof in your house</h4>
+                    <p>Written on <span>20/10/2022</span> by <span>Admin</span></p>
                     <p>
-                        Consejos para construir terraza en techo con los mejores materiales
+                        Tips for building a roof terrace with the best materials
                     </p>
                 </a>
             </div>
@@ -41,10 +41,10 @@
 
             <div class="text-entry">
                 <a href="entry.php">
-                    <h4>guia decoracion de tu hogar</h4>
-                    <p>Escrito el <span>20/10/2022</span> por <span>Admin</span></p>
+                    <h4>Outdoor decoration</h4>
+                    <p>Written on <span>20/10/2022</span> by <span>Admin</span></p>
                     <p>
-                        Maximiza el espacio de tu hogar con esta guia aprende a combinar muebles y colores para darle vida a tu espacio
+                    Decorate your exteriors in a minimalist way, order and organize your furniture
                     </p>
                 </a>
             </div>
@@ -63,10 +63,10 @@
 
             <div class="text-entry">
                 <a href="entry.php">
-                    <h4>terraza y techo en tu casa</h4>
-                    <p>Escrito el <span>20/10/2022</span> por <span>Admin</span></p>
+                    <h4>Home decoration guide</h4>
+                    <p>Written on <span>20/10/2022</span> by <span>Admin</span></p>
                     <p>
-                        Consejos para construir terraza en techo con los mejores materiales
+                        Maximize the space in your home with this guide learn to combine furniture and colors to give life to your space
                     </p>
                 </a>
             </div>
@@ -85,10 +85,10 @@
 
             <div class="text-entry">
                 <a href="entry.php">
-                    <h4>guia decoracion de tu hogar</h4>
+                    <h4>Paint your room with this guide!</h4>
                     <p>Escrito el <span>20/10/2022</span> por <span>Admin</span></p>
                     <p>
-                        Maximiza el espacio de tu hogar con esta guia aprende a combinar muebles y colores para darle vida a tu espacio
+                        Choose the best colors so that your room looks different from the others
                     </p>
                 </a>
             </div>

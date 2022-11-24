@@ -4,9 +4,9 @@
 ?> 
 
     <main class="container section">
-        <h1>Administrador de bienes raices</h1>
+        <h1>Real estate manager</h1>
 
-        <a href="/admin/propiedades/crear.php" class="btn btn-green">Ver propiedad</a>
+        <a href="/admin/propiedades/crear.php" class="btn btn-green">View property</a>
     </main>
 
 

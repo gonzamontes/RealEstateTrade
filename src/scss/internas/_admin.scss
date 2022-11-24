@@ -1,0 +1,27 @@
+.alert{
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 0.4rem;
+    
+    &.error{
+        background-color: $rojoClaro;
+    }
+}
+
+.msj{
+    color: $blanco;
+    text-align: center;
+    font-weight: $bold;
+    padding: 0.5rem;
+    font-size: medium;
+    text-transform: uppercase;
+
+}
+
+.msj-container{
+    background-color: #8b0000;
+    width: 25%;
+    margin: auto;
+}

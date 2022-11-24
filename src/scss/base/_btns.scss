@@ -10,3 +10,12 @@
     @include btn($verde, block)
 }
 
+.btn{
+    width: 25%;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+

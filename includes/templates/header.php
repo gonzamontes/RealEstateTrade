@@ -31,5 +31,9 @@
                 </nav>
 
             </div>
+
+            <?php if($start){?> 
+                <h1>Sale of houses and exclusive luxury apartments</h1>
+            <?php } ?> 
         </div>
     </header>

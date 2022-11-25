@@ -34,120 +34,12 @@ incluirTemplate('header', $start = true);
     <section class="section s1 container">
         <h2>Houses & apartments for sale</h2>
 
-        <div class="container-advertisements">
-            
-            <div class="advertisement">
-                <picture>
-                    <source srcset="build/img/anuncio1.webp" type="image/webp">
-                    <source srcset="build/img/anuncio1.jpg" type="image/jpg">
-                    <img src="build/img/anuncio1.jpg" alt="anuncio" loading="lazy">
-                </picture>
+        <?php 
 
-                <div class="container-advertisement">
-
-                    <h3>Luxury house on the lake</h3>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
-
-                    <p class="price">$400000</p>
-
-                    <ul class="icons-caracteristics">
-                        <li>
-                            <img class="iconC" src="build/img/icono_wc.svg" loading="lazy" alt="bath icon">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="iconC" src="build/img/icono_estacionamiento.svg" loading="lazy" alt="parking icon">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="iconC" src="build/img/icono_dormitorio.svg" loading="lazy" alt="room icon">
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="advertisements.php" class="btn-yellow-block">
-                        View property
-                    </a>
-
-                </div>
-            </div>
-            
-            <div class="advertisement">
-                <picture>
-                    <source srcset="build/img/anuncio2.webp" type="image/webp">
-                    <source srcset="build/img/anuncio2.jpg" type="image/jpg">
-                    <img src="build/img/anuncio2.jpg" alt="anuncio" loading="lazy">
-                </picture>
-
-                <div class="container-advertisement">
-
-                    <h3>Minimalist house</h3>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
-
-                    <p class="price">$345000</p>
-
-                    <ul class="icons-caracteristics">
-                        <li>
-                            <img class="iconC" src="build/img/icono_wc.svg" loading="lazy" alt="bath icon">
-                            <p>4</p>
-                        </li>
-                        <li>
-                            <img class="iconC" src="build/img/icono_estacionamiento.svg" loading="lazy" alt="parking icon">
-                            <p>4</p>
-                        </li>
-                        <li>
-                            <img class="iconC" src="build/img/icono_dormitorio.svg" loading="lazy" alt="room icon">
-                            <p>5</p>
-                        </li>
-                    </ul>
-
-                    <a href="advertisements.php" class="btn-yellow-block">
-                        View property
-                    </a>
-
-                </div>
-            </div>
-            
-            <div class="advertisement">
-                <picture>
-                    <source srcset="build/img/anuncio3.webp" type="image/webp">
-                    <source srcset="build/img/anuncio3.jpg" type="image/jpg">
-                    <img src="build/img/anuncio3.jpg" alt="anuncio" loading="lazy">
-                </picture>
-
-                <div class="container-advertisement">
-
-                    <h3>Rustic mansion with pool</h3>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit?</p>
-
-                    <p class="price">$555000</p>
-
-                    <ul class="icons-caracteristics">
-                        <li>
-                            <img class="iconC" src="build/img/icono_wc.svg" loading="lazy" alt="bath icon">
-                            <p>4</p>
-                        </li>
-                        <li>
-                            <img class="iconC" src="build/img/icono_estacionamiento.svg" loading="lazy" alt="parking icon">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="iconC" src="build/img/icono_dormitorio.svg" loading="lazy" alt="room icon">
-                            <p>6</p>
-                        </li>
-                    </ul>
-
-                    <a href="advertisements.php" class="btn-yellow-block">
-                        View property
-                    </a> 
-
-                </div>
-            </div>
-
-        </div>
+            $lim = 3;
+            include 'includes/templates/advertisements.php';
+        
+        ?> 
 
         <dev class="align-right">
             <a href="advertisements.php" class="btn-green">View all</a>

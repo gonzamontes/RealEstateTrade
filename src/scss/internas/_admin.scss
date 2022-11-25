@@ -8,6 +8,18 @@
     &.error{
         background-color: $rojoClaro;
     }
+
+    &.success{
+        background-color: $verde;
+        color: white;
+    }
+}
+
+.success-delete{
+    width: 35%;
+    background-color: $verde;
+    color: white;
+    margin: auto;
 }
 
 .msj{
@@ -25,3 +37,44 @@
     width: 25%;
     margin: auto;
 }
+
+table.property{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    
+    thead{
+        background-color: $grisOscuro;
+        padding: 0;
+
+        th{
+            color: $blanco;
+            padding: 1rem;
+        }
+    }
+
+    .table-img{
+        width: 10rem;
+        margin: auto;
+    }
+}
+
+.update-img{
+    width: 20rem;
+}
+
+@include tablet{
+    .flexing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .delete-btn{
+            padding: 1rem;
+            margin-left: 1rem;
+        }
+    }
+}
+
+

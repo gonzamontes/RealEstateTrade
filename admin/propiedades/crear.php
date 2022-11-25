@@ -14,7 +14,7 @@
 
     $alertas = [
         'titulo' => "You must add a title",
-        'precio' => "You must add a price",
+        'precio' => "You must add a price, not too expensive!",
         'descripcion' => "You must add a description and must have a minimum of 30 characters",
         'habitaciones' => "You must add quantity of bedrooms",
         'wc' => "You must add quantity of bathrooms",
@@ -58,7 +58,7 @@
 
         // check if someone input is null 
 
-        if(!$titulo || !$precio || ( strlen($descripcion) < 30 ) || !$habitaciones || !$wc || !$estacionamiento || !$vendedor || !$imagen['name'] || $imagen['size'] > (1000 * 1000) ){
+        if(!$titulo || !$precio || ( strlen($precio) > 7 ) || ( strlen($descripcion) < 10 ) || ( strlen($descripcion) > 80 ) || !$habitaciones || !$wc || !$estacionamiento || !$vendedor || !$imagen['name'] || $imagen['size'] > (1000 * 1000) ){
             $errores[0] = "Missing fields to fill!";
         };
 
@@ -91,9 +91,7 @@
 
             if($resultado) {
 
-                echo '<script language="javascript">alert(" Form sent successfully! ;) ");</script>';
-
-                header('Location: /admin');
+                header('Location: /admin?resultado=1');
 
             };
 
@@ -102,48 +100,14 @@
     }
     
     require '../../includes/funciones.php';
+
+    incluirTemplate('header')
 ?> 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="/build/css/app.css">
-</head>
-<body>
-    
-    <header class="header <?php echo $start ? 'start' : '' ?>" >
-        <div class="container container-header">
-
-            <div class="bar">
-
-                <a href="/">
-                    <img src="/build/img/logo.svg" alt="Logotipo de bienes raices">
-                </a>
-
-                <div class="movile-menu">
-                    <img class="bmenu" src="/build/img/barras.svg" alt="responsive menu">
-                    <img class="btnDarkmode" src="/build/img/dark-mode.svg" >
-                </div>
-
-                <nav class="nav">
-                    <a href="us.php">About us</a>
-                    <a href="advertisements.php">Properties</a>
-                    <a href="blog.php">Blog</a>
-                    <a href="contact.php">Contact</a>
-                </nav>
-
-            </div>
-        </div>
-    </header>
 
     <!------------------------------------ file start here  -------------------------------->
 
     <main class="container section">
-        <h1>Create</h1>
+        <h1>Create Property</h1>
 
         
 
@@ -172,7 +136,7 @@
 
                 <!-- price -->
                 
-                <?php if(!$precio && !empty($errores)) {?> 
+                <?php if( (strlen($precio) > 7) && !empty($errores) ){ ?> 
                     <div class="alert error">
                         <?php echo $alertas['precio']; ?> 
                     </div>
@@ -182,7 +146,7 @@
 
                 <!-- image -->
 
-                <?php if(!$imagen['name'] && !empty($errores)) {?> 
+                <?php if( (!$imagen['name'] || $imagen['size'] > (1000 * 1000)) && !empty($errores)) {?> 
                     <div class="alert error">
                         <?php echo $alertas['imagen']; ?> 
                     </div>
@@ -192,13 +156,13 @@
 
                 <!-- description -->
 
-                <?php if( $descripcion<30 && !empty($errores) ) {?> 
+                <?php if( (( strlen($descripcion) < 10 ) || ( strlen($descripcion) > 80 )) && !empty($errores) ) {?> 
                     <div class="alert error">
                         <?php echo $alertas['descripcion']; ?> 
                     </div>
                 <?php } ?> 
                 <label for="descripcion">Description:</label>
-                <textarea id="descripcion" name="descripcion" value="<?php echo $descripcion; ?>"></textarea>
+                <textarea id="descripcion" name="descripcion" value="<?php echo $descripcion; ?>"><?php echo $descripcion ; ?></textarea>
 
             </fieldset>
 

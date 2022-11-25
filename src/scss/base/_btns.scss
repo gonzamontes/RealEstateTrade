@@ -6,12 +6,24 @@
     @include btn($amarillo, block)
 }
 
+.btn-yellow-dark{
+    @include btn($amarilloOscuro, inline-block)
+}
+
 .btn-green{
     @include btn($verde, block)
 }
 
+.btn-grey{
+    @include btn($grisClaro, block)
+}
+
 .btn{
     width: 25%;
+}
+
+.btn-red{
+    @include btn($rojoOscuro, inline-block);
 }
 
 .botones{

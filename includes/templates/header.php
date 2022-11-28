@@ -39,6 +39,7 @@
                     <a href="blog.php">Blog</a>
                     <a href="contact.php">Contact</a>
                     <?php if($auth){ ?>
+                        <a href="/admin/index.php">Manager</a>
                         <a href="sign-off.php">Sign off</a>
                     <?php }else{ ?> 
                         <a href="login.php">Login</a>

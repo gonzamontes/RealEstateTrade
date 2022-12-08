@@ -1,16 +1,10 @@
 <?php 
-    require '../../includes/funciones.php';
+    require '../../includes/app.php';
+
+    use App\Propiedad;
+
     
-    $auth = estadoAutenticado();
-    
-    if(!$auth){
-        header('location: /');
-    }
-
-    // database 
-
-    require '../../includes/config/database.php';
-
+    estadoAutenticado();
     $db = conectarDB();
 
     // getting vendors from database 
@@ -48,6 +42,10 @@
     // run code after user submits form
 
     if($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+        $propiedad = new Propiedad;
+
+        $propiedad->guardar();
 
         // string validation to avoid hacks situations
 
@@ -89,9 +87,6 @@
                 // ---------- upload the photo to the new folder 
                 move_uploaded_file($imagen['tmp_name'], $carpetaImagenes . $nombreImagen);
 
-            // insert into db
-                    
-            $query = " INSERT INTO propiedades (titulo, precio, imagen, descripcion, habitaciones, wc, estacionamiento, creado, vendedorId ) VALUES ( '$titulo', '$precio', '$nombreImagen', '$descripcion', '$habitaciones', '$wc', '$estacionamiento', '$creado', '$vendedor'  ) ";
 
             // echo $query;
 
@@ -218,7 +213,7 @@
                         <?php echo $alertas['vendedor']; ?> 
                     </div>
                 <?php } ?>
-                <select name="vendedor" id="vendedor">
+                <select name="vendedorId" id="vendedor">
                     <option value="" selected disabled >- Select a Seller -</option>
                     <?php while( $row = mysqli_fetch_assoc($resultado) ) { ?> 
                         <option <?php echo $vendedor === $row['id'] ? 'selected' : ''; ?> value="<?php echo $row['id']; ?>"> <?php echo $row['nombre'] . " " . $row['apeliido']; ?> </option>

@@ -2,7 +2,8 @@
 
 // CONNCET DB
 
-require 'includes/config/database.php';
+// add header 
+require 'includes/app.php';
 $db = conectarDB();
 
 // CREATING USER 

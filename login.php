@@ -1,6 +1,7 @@
 <?php 
 
-    require 'includes/config/database.php';
+    // add header 
+    require 'includes/app.php';
     $db = conectarDB();
 
     $email = '';
@@ -58,8 +59,6 @@
 
     };
 
-    // add header 
-    require 'includes/funciones.php';
     incluirTemplate('header');
 ?> 
 

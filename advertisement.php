@@ -7,8 +7,9 @@
         header('location: /');
     }
 
+    require 'includes/app.php';
+
     // database
-    require 'includes/config/database.php';
     $db = conectarDB();
 
     $query = "SELECT * FROM propiedades WHERE id = ${id}";
@@ -21,7 +22,7 @@
 
     $propiedad = mysqli_fetch_assoc($resultado);
 
-    require 'includes/funciones.php';
+    
     incluirTemplate('header');
 ?>
 
